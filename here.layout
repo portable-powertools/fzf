@@ -1,0 +1,3 @@
+installthis() {
+    (cd "$mod_fzf_sw"; ./install --bin; )
+}

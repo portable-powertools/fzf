@@ -29,8 +29,9 @@ export FZF_COMPLETION_OPTS='+c -x'
 #   fd --type d --hidden -I -follow --exclude ".git" . "$1"
 # }
 
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude ".git"'
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+#export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude ".git"'
+#export FZF_DEFAULT_COMMAND='find -type f'
+#export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # full list: complete | grep _fzf
 # add:

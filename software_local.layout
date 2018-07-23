@@ -1,0 +1,7 @@
+software_local_base="$layout_working_dir/fzf"
+setup_install_generic_binsource="$software_local_base/bin"
+setup_install_command="fzfinstall"
+
+fzfinstall() {
+    "$software_local_base/install" --bin && { prefix="$prefix" setup_install_generic; }
+}
